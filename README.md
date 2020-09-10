@@ -1,2 +1,2 @@
-# go-server-core
-An attempt to build a plugin based server
+# game-server
+Building a game server with my go-server-core project

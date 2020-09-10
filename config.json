@@ -1,4 +1,4 @@
 {
-    "include": ["example"],
-    "port": 2020
+    "include": ["example", "sock"],
+    "port": 2001
 }

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/student020341/go-server-core/src/lib/RouterModule"
+	"github.com/student020341/game-server/src/lib/RouterModule"
 )
 
 /*
