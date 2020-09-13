@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/student020341/game-server/src/lib/RouterModule"
+	s "github.com/student020341/go-server-core/TWTServer"
 	"golang.org/x/net/websocket"
 )
 
@@ -24,8 +24,8 @@ func handleHome(w http.ResponseWriter, r *http.Request, args map[string]interfac
 }
 
 func handleConnect(w http.ResponseWriter, r *http.Request, args map[string]interface{}) {
-	var handler websocket.Handler = socketStuff
-	handler.ServeHTTP(w, r)
+	wserver := websocket.Server{Handler: websocket.Handler(socketStuff)}
+	wserver.ServeHTTP(w, r)
 }
 
 type simpleClient struct {
@@ -103,7 +103,7 @@ func socketStuff(ws *websocket.Conn) {
 	fmt.Printf("client %v disconnected\n", clientId)
 }
 
-var router RouterModule.SubRouter
+var router s.SubRouter
 
 func init() {
 	// setup router

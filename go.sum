@@ -1,3 +1,7 @@
+github.com/student020341/go-server-core v0.0.0-20200913180241-3359fab71fba h1:zJUEtAKRcsuMW5kBn96i2/TpRPPA9uUzlPV9TBrOalQ=
+github.com/student020341/go-server-core v0.0.0-20200913180241-3359fab71fba/go.mod h1:CJvrkI3xPsc0O1VwNnSXmlBO+uS/jtxbclqVnYg8DQs=
+github.com/student020341/go-server-core v0.0.0-20200913184503-e1cdc9cc1518 h1:ziNUccvPDdjj9lpARWGJmVnnSyl2Z3e3W7I54n6TcLU=
+github.com/student020341/go-server-core v0.0.0-20200913184503-e1cdc9cc1518/go.mod h1:CJvrkI3xPsc0O1VwNnSXmlBO+uS/jtxbclqVnYg8DQs=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
